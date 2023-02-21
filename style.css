@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+}
+.navigation{
+    height: 7vh;
+}
+.nav{
+    display: inline;
+    width: 100vw;
+    height: 20vh;
+}
+.nav h1{
+    margin-top: 4vh;
+    margin-left: 10vw;
+    font-size: 1.5em;
+    margin-left: 10vw;
+    margin-bottom: 7vh;
+}
+.nav-item {
+    float: right;
+    list-style-type:none;
+    margin-right: 28vw;
+    margin-top: -10vh;
+    
+}
+
+.nav-item li{
+    margin-right: 3vw;
+    display: inline;
+    border-spacing: 1vw;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: #717275;
+    font-weight: 500;
+}
+.icon{
+    float: right;
+    margin-right: 10vw;
+    margin-top:-10vh;
+    font-size: 1.3em;
+}
+
+.icon a{
+    display: inline-block;
+    margin-left: 20px;
+    color: #717275;
+}
+
+section{
+    margin-top: 20px;
+    /* border: 2px solid black; */
+    width: 99vw;
+    height: 90vh;
+    background-size: contain;
+    background-image: url('medium-shot-business-women-high-five.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}       
+
+section input{
+    padding: 4vh 1.5vw;
+    border-radius: 40px;
+    position: relative;
+    top: 80%;
+    left: 10%;
+    font-size: .99rem;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    border: none;
+}
+.fashion-head p{
+    margin-top: 15vh;
+    width: auto;
+    height: 5vh;
+    font-size: 2.7em;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+.fashion{
+    width: 10vh;
+    margin-top: -25vh;
+}
+.fashion-side a{
+    display: block;
+    text-decoration: none;
+    margin-top: -20px;
+    padding: 3vh 1.4vh;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.fashion-side #I{
+    color: #FF4400;
+    border-left: 1px solid #FF4400;
+}
+.fashion-side #H{
+    color: #717275;
+    border-left: 1px solid #717275;
+}
+.fashion-side #C{
+    color: #717275;
+    border-left: 1px solid #717275;
+}
+
+.f-image img{
+    width: auto;
+    height: 65vh;
+}
+.fashion{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+    height: 859px;
+}
+.f-right-head p{
+    font-size: 2em;
+    font-weight: 800;
+}
+.f-right-head-para span{
+    font-size: 1.25em;
+    color: #717275;
+    line-height: 5vh;
+    word-spacing: .05vw;
+}
+.f-right-head-para a{
+    color: #717275;
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
+}
+.retail{
+    margin-top: -12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    width: 99vw;
+    background-color: #86aed628;
+    
+}
+aside{
+    width: 70vw;
+    height: 70vh;
+    background-image: url('retail-shop-owner-mask-social-distancing-shopping.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.retail-head{
+    margin-left: 5vw;
+
+}
+.retail-head h1{
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.retail-head p{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: #717275;
+}
+.retail-head a{
+    text-decoration: none;
+    font-size: .8rem;
+    font-weight: bold;
+    color: #717275;
+}
+.feature-head{
+    text-align: center;
+    margin-top: 20vh;
+    font-size: larger;
+}
+.feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100vw;
+    margin-top: 20vh;
+}
+.feature-new{
+    width: 25vw;
+    height: 51vh;
+    background-image: url('zevan-mcdougall-qnh1odlqOmk-unsplash.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px 1vw;
+}
+.feature-new input{
+    margin: 4vh;
+    padding: 3px 7px;
+    background-color:  #fffffffd;
+    color: #717275;
+    border: none;
+    font-weight: bold;
+}
+.feature-new i{
+    float: right;
+    margin: 4vh;
+    color: #fffffffd;
+}
+.feature-low{
+    width: 25vw;
+    height: 51vh;
+    background-image: url('jordan-nix-CkCUvwMXAac-unsplash.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px 1vw;
+}
+.feature-low input{
+    margin: 4vh;
+    padding: 3px 7px;
+    background-color:  #fffffffd;
+    color: #717275;
+    border: none;
+    font-weight: bold;
+}
+.feature-low i{
+    float: right;
+    margin: 4vh;
+    color: #fffffffd;
+}
+.feature-juice{
+    width: 25vw;
+    height: 51vh;
+    background-image: url('nature-zen-3Dn1BZZv3m8-unsplash.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px 1vw;
+}
+.feature-juice input{
+    margin: 4vh;
+    padding: 3px 7px;
+    background-color:  #fffffffd;
+    color: #717275;
+    border: none;
+    font-weight: bold;
+}
+.feature-juice i{
+    float: right;
+    margin: 4vh;
+    color: #fffffffd;
+}
+.feature-new-m h3 a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 3vw;
+}
+.feature-new-m p{
+    margin-top: -2vh;
+    font-size: .87rem;
+    margin-left: 3vw;
+}
+.feature-new-m span{
+    float: right;
+    margin-right: 2vw;
+    margin-top: -10vh;
+}
+.feature-low-m h3 a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 3vw;
+}
+.feature-low-m p{
+    margin-top: -2vh;
+    font-size: .87rem;
+    margin-left: 3vw;
+}
+.feature-low-m span{
+    float: right;
+    margin-right: 2vw;
+    margin-top: -10vh;
+} 
+.feature-juice-m h3 a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 3vw;
+}
+.feature-juice-m p{
+    margin-top: -2vh;
+    font-size: .87rem;
+    margin-left: 3vw;
+}
+.feature-juice-m span{
+    float: right;
+    margin-right: 2vw;
+    margin-top: -10vh;
+}
+.viewallproducts{
+    display: flex;
+    justify-content: center;
+}
+.viewallproducts a{
+    display: inline-block;
+    margin-top: 10vh;
+    padding:.7vh 0;
+    font-weight: bold;
+    text-decoration: none;
+    color: #717275;
+    border-bottom: 2px solid #71727571;
+}
+.footer{
+    height: 45vh;
+    width: 100vw;
+    margin-top: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+}
+.little-fashion a, .little-fashion-c{
+    color: #717275;
+}
+.little-fashion-c p{
+    margin-top: 7vh;
+    line-height: 5vh;
+}
+.sitemap-m{
+    margin-top: 4vh;
+}
+.sitemap{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: -3vh;
+    margin-left: -3vw;
+}
+.sitemap li{
+    list-style-type: none;
+    line-height: 5vh;
+}
+.sitemap a{
+    text-decoration: none;
+}
+.social-m{
+    margin-top: -7vh;
+}
+.social-m ul{
+    display: flex;
+    margin-left: -5vw;
+    list-style-type: none;
+}
+.social-m li{
+    margin-left: 2vw;
+}
+
+
+
+
+
+
+
+
+
+
+.nav-item li:hover{
+    border-bottom: 2px solid #717275;
+    transition: width 1s;
+}
+.icon a:hover{
+    color: #FF4400;
+}
+.I a:hover{
+    color: white;
+}
+.mainbutton:hover{
+    background-color: #FF4400;
+}
+.feature-new i:hover{
+    color: red;
+}
+.feature-low i:hover{
+    color: red;
+}
+.feature-juice i:hover{
+    color: red;
+}
+.viewallproducts a:hover{
+    color: #FF4400;
+}
+.little-fashion a:hover{
+    color: #fff;
+}
